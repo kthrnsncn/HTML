@@ -64,7 +64,7 @@ class Carousel {
   startAutoSlide() {
     this.interval = setInterval(() => {
       this.autoMoveToNextSlide();
-    }, 1000); // Change slide every 3 seconds (3000 milliseconds)
+    }, 1000); 
   }
 
   // Function to stop the automatic slide movement
@@ -74,10 +74,6 @@ class Carousel {
 }
 
 const exCarousel = new Carousel(galleryContainer, galleryItems, galleryControls);
-
-//exampleCarousel.setControls();
-//exampleCarousel.useControls();
-//exampleCarousel.updateGallery();
 
 // Set the initial active slide
 exCarousel.carouselArray[exCarousel.currentIndex].classList.add('gallery-item-3');
