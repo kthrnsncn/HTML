@@ -234,7 +234,7 @@ nav ul li.btn:hover a{
 .content .social a:hover{
     transform: scale(1.2);
     transition: .4s;
-    color: white;
+    color: rgb(255, 230, 0);
 }
 
 .image {
